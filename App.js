@@ -22,7 +22,7 @@ const App = () => {
 
 
 
-      <View>
+      <View style={{marginBottom:35}}>
         <FlatList
           renderItem={({ item }) => {
             return (
