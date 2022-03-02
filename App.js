@@ -19,10 +19,11 @@ const App = () => {
         style={styles.buttonParent}>
         <Text style={styles.buttonStyle}>Generate Random Color</Text>
       </TouchableOpacity>
+      <Text style={styles.developed}>DEVELOPED BY : ASAD ALI KHAN </Text>
 
 
 
-      <View style={{marginBottom:35}}>
+      <View style={{marginBottom:320}}>
         <FlatList
           renderItem={({ item }) => {
             return (
@@ -51,6 +52,9 @@ const App = () => {
 
 }
 const styles = StyleSheet.create({
+  developed:{
+    textAlign:'center'
+  },
   textStyle:{
     textAlign:"center",
     fontSize:25,
@@ -72,7 +76,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'gray',
     borderRadius: 5,
-    marginBottom:20,
+    marginBottom:10,
   }
 })
 export default App
